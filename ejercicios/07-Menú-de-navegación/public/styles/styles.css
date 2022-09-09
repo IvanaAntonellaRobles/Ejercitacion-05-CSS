@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+}
+header {
+    background-color: transparent;
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    position: fixed;
+}
+header .list-menu {
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+}
+header .list-menu li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 2rem;
+    margin-top: 20px;
+    color: white;
+}

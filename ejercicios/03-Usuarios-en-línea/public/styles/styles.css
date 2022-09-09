@@ -1,0 +1,32 @@
+.contain-card {
+    border: 1px black solid;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+.contain-card .online-users {
+    width: 200px;
+    height: 50px;
+    border: 1px rgb(212, 211, 211) solid;
+    border-radius: 30px;
+    position: relative;
+    left: 22rem;
+    top: 80%;
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain-card .online-users span {
+    margin-left: 10px;
+}
+
+.contain-card .contain-button-online {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    position: relative;
+    top: 18rem;
+    left: 23rem;
+    border-radius: 9999px;
+}

@@ -1,0 +1,26 @@
+.contain-form {
+    width: 300px;
+    border: 1px black solid;
+    margin: 10rem 10rem;
+    font-family: 'verdana';
+    padding: 15px;
+}
+.contain-input {
+    margin: 10px;
+    border: 1px rgb(141, 140, 140) solid;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.432);
+}
+.contain-input #input {
+    padding: 10px;
+    border: none;
+    width: 200px;
+}
+#input:valid {
+    border: 1px green solid;
+}
+.button {
+    margin-left: 10px;
+    padding: 10px;
+    color: grey;
+}

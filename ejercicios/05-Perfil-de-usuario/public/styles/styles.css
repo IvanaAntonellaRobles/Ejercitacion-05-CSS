@@ -1,0 +1,36 @@
+.contain-card-perfil {
+    width: 300px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 1px rgb(201, 200, 200) solid;
+    margin: 40px 70px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.31);
+    padding: 15px;
+}
+.contain-card-perfil .contain-image #perfil {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    left: 1rem;
+}
+.contain-card-perfil .contain-image #ensign {
+    width: 60px;
+    height: 40px;
+    position: relative;
+    left: 11rem;
+    bottom: 4.6rem;
+    border-radius: 7px;
+}
+.contain-information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 18px;
+    position: relative;
+    left: 1.5rem;
+    bottom: 1.5rem;
+}
+.contain-information span {
+    margin: 5px;
+}

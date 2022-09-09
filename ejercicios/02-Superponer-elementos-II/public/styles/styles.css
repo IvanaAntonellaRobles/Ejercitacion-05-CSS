@@ -1,0 +1,153 @@
+.container-boxes {
+    width: 340px;
+    height: auto;
+    margin: 100px auto;
+    border: 1px black solid;
+    padding: 15px;
+}
+
+.boxes .box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(196, 196, 196);
+    position: relative;
+}
+.one .orange1 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    
+}
+.one .green1 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 70%;
+    top: 10%; 
+}
+.two .orange2 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    top: 2.5rem;
+}
+.two .green2 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    left: 70%;
+    bottom: 70%;
+}
+.three .orange3 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    left: 40%;
+    top: 40%;
+}
+.three .green3 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 70%;
+    bottom: 60px;
+}
+.four .orange4 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    top: 40%;
+}
+.four .green4 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 30%;
+    top: 10px;
+}
+.five .orange5 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    left: 2.5rem;
+}
+.five .green5 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+.six .orange6 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    left: 40px;
+    top: 2.5rem;
+}   
+.six .green6 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 70%;
+    top: 40px;
+}
+.seven .orange7 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    left: 20%;
+}
+.seven .green7 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    top: 10px;
+}
+.eight .orange8 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    left: 20%;
+    top: 40%;
+}
+.eight .green8 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+.nine .orange9 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+.nine .green9 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+    left: 35%;
+    bottom: 25px;
+}

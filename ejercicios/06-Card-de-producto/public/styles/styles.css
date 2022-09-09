@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(216, 214, 214);
+}
+.contain-card {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 30px 70px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contain-image img {
+    width: 350px;
+    height: 350px;
+
+}
+.contain-image .contain-badges {
+    position: relative;
+    right: 3rem;
+}
+.contain-image .contain-badges .free-shipping {
+    background-color: blue;
+    padding: 7px;
+    border-radius: 6px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+.contain-image .contain-badges .discount {
+    background-color: rgb(3, 119, 3);
+    padding: 7px;
+    border-radius: 6px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    right: 4.6rem;
+    top: 20px;
+}
+.contain-image .contain-badges #heart {
+    font-size: 25px;
+    color: red;
+    position: relative;
+    left: 17rem;
+    bottom: 1rem;
+}
+.contain-card .contain-product-name {
+    margin-top: 40px;
+    position: relative;
+    right: 2.5rem;
+}
+
+.contain-card .contain-product-name .producto-name {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.contain-card .contain-product-name .description {
+    font-size: 20px;
+    color: grey;
+    margin-top: 5px;
+}
+.contain-card .contain-product-name .price {
+    font-size: 1.7rem;
+    color: rgb(6, 163, 163);
+    font-weight: bold;
+    position: relative;
+    left: 19rem;
+    bottom: 4.7rem;
+}
